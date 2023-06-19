@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Redcollar";
+  src: local("Redcollar"),
+    url("//db.onlinewebfonts.com/t/f02cf2e6e27a17bcfe9efa18c041c208.woff")
+      format("woff");
+}
+
+h1 {
+  font-family: "Redcollar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+
+.avatar_section {
+  color: #ffffff;
+  width: 322px;
+  margin: 0 0 0 40px;
+  height: auto;
+}
+
+.glass {
+  display: inline-block;
+  position: absolute;
+  padding: 130px 0 0 20px;
+  width: 226px;
+  height: 33px;
+  vertical-align: middle;
+}
+
+.avatar_img {
+  width: 322px;
+  height: 454px;
+  object-fit: cover;
+}
+
+.profile_contener {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f51b1b;
+
+  border-radius: 24px 24px 0px 0px;
+  -moz-border-radius: 5px;
+  position: relative;
+  margin-top: -15px;
+  width: 322px;
+  height: 454px;
+
+  box-shadow: 1px 1px 3px 0px black;
+}
+
+.profile_info {
+  padding: 40px 24px;
+  gap: 40px;
+}
+
+.rectangleL {
+  position: absolute;
+  transform: rotate(180deg);
+  top: -20px;
+  left: 129px;
+}
+
+.rectangleR {
+  position: absolute;
+  width: 21.21px;
+  height: 34.65px;
+  left: 166.5px;
+  top: -5.5px;
+
+  background: #96de42;
+  transform: matrix(-0.71, 0.71, 0.71, 0.71, 0, 0);
+}
+
+.profile_contener:before {
+  content: "";
+  border: 12px solid transparent;
+  border-bottom: 12px solid #f51b1b;
+  position: absolute;
+  left: 50%;
+  margin-left: -12px;
+  top: -22px;
+  width: 0;
+}
+
+.content_text {
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  gap: 20px;
+}
+.connectingFiled {
+  display: flex;
+  align-items: center;
+}
+.textFiled {
+  margin-left: 14px;
+}
+.refField {
+  display: flex;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.age {
+  margin: 0 0 40px 0;
+}
+
+@media screen and (max-width: 500px) {
+  .avatar_section {
+    margin: 52px 0 0 40px;
+  }
+}

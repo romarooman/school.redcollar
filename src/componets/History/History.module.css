@@ -1,0 +1,207 @@
+.block {
+  height: 780px;
+  margin: 18px 40px 0 32px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.block_info {
+  margin: 33px 0 0 0;
+  background: #000000;
+  border: 1px solid #ffffff;
+  width: 100%;
+}
+
+.delta {
+  border: 1px solid #000000;
+  margin-top: -1px;
+  width: 60px;
+}
+.delta_contener {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 0 56px;
+  width: 100%;
+}
+
+.block_info_contener {
+  margin: 47px 49px 129px 27px;
+}
+
+.block_info_contener_s {
+  display: flex;
+  align-items: flex-start;
+}
+
+.text {
+  width: 690px;
+
+  /* Text 2 */
+
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+  letter-spacing: -0.01em;
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.part {
+  width: 124px;
+  height: 16px;
+
+  /* H2 */
+
+  font-family: "Redcollar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.listB {
+  height: 24px;
+
+  /* Text 2 */
+
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: -0.01em;
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0 0 20px 0;
+}
+
+.list {
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  text-decoration: none;
+  letter-spacing: -0.01em;
+
+  /* White */
+
+  color: #ffffff;
+
+  opacity: 0.4;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.skill {
+  display: flex;
+}
+.skill_li {
+  height: 24px;
+  margin: 0 32px 0 0;
+  /* Text 2 */
+
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: -0.01em;
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+hr {
+  /* divider */
+  margin: 0 0 20px 0;
+  opacity: 0.4;
+  /* White */
+
+  border: 1px solid #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .text {
+    width: 320px;
+  }
+  .block {
+    margin: 40px 0 0 40px;
+  }
+  ul {
+    padding: 0;
+    margin: 16px 0 20px 0;
+  }
+  .block_info_contener_s {
+    flex-direction: column;
+  }
+  .block_info {
+    width: 322px;
+  }
+  .skill_li {
+    margin: 0 16px 0 0;
+  }
+  .delta_contener {
+    justify-content: center;
+    display: flex;
+    margin: 0;
+  }
+}

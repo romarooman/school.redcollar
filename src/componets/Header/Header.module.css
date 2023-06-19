@@ -1,0 +1,25 @@
+.header {
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+.header_container {
+  display: flex;
+  margin: 10px 40px 0 0;
+  justify-content: flex-end;
+}
+
+.logo {
+  position: absolute;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+
+    justify-content: flex-start;
+  }
+  .header_container {
+    justify-content: flex-start;
+    margin: 10px 40px 0 23px;
+  }
+}
