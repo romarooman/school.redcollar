@@ -28,7 +28,7 @@ const History = (props) => {
             <div className={styles.part}>Образование</div>
             <ul>
               <li className={styles.listB}>
-                Воронежский Государственный Университет
+                ВГУ
               </li>
               <li className={styles.list}>
                 Прикладная математика и информатика
