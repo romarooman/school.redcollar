@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/school.redcollar/static/css/main.a5949b81.css",
-    "main.js": "/school.redcollar/static/js/main.a9817e9f.js",
+    "main.css": "/school.redcollar/static/css/main.ce5ad6f3.css",
+    "main.js": "/school.redcollar/static/js/main.542f2742.js",
     "static/js/787.4dd10739.chunk.js": "/school.redcollar/static/js/787.4dd10739.chunk.js",
     "static/media/self.jpg": "/school.redcollar/static/media/self.94426585a8721642a5e7.jpg",
     "static/media/logo.svg": "/school.redcollar/static/media/logo.58a3f5354baf4d113f7d92bad56791ec.svg",
@@ -13,12 +13,12 @@
     "static/media/telegram.svg": "/school.redcollar/static/media/telegram.29ab23f928a9e3750378e5f8e06ff269.svg",
     "static/media/reddelta.svg": "/school.redcollar/static/media/reddelta.8b7e5e674fc3bee6c1beb1b4c55c103d.svg",
     "static/media/delta.svg": "/school.redcollar/static/media/delta.df212750dc83649476b129487c3b6352.svg",
-    "main.a5949b81.css.map": "/school.redcollar/static/css/main.a5949b81.css.map",
-    "main.a9817e9f.js.map": "/school.redcollar/static/js/main.a9817e9f.js.map",
+    "main.ce5ad6f3.css.map": "/school.redcollar/static/css/main.ce5ad6f3.css.map",
+    "main.542f2742.js.map": "/school.redcollar/static/js/main.542f2742.js.map",
     "787.4dd10739.chunk.js.map": "/school.redcollar/static/js/787.4dd10739.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5949b81.css",
-    "static/js/main.a9817e9f.js"
+    "static/css/main.ce5ad6f3.css",
+    "static/js/main.542f2742.js"
   ]
 }
