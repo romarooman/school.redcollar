@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/school.redcollar/static/css/main.ce5ad6f3.css",
-    "main.js": "/school.redcollar/static/js/main.542f2742.js",
+    "main.css": "/school.redcollar/static/css/main.bc0d8462.css",
+    "main.js": "/school.redcollar/static/js/main.a82457fc.js",
     "static/js/787.4dd10739.chunk.js": "/school.redcollar/static/js/787.4dd10739.chunk.js",
     "static/media/self.jpg": "/school.redcollar/static/media/self.94426585a8721642a5e7.jpg",
     "static/media/logo.svg": "/school.redcollar/static/media/logo.58a3f5354baf4d113f7d92bad56791ec.svg",
@@ -11,14 +11,14 @@
     "static/media/glass.svg": "/school.redcollar/static/media/glass.d3bf21ff4a7d99501bea666d193c43a0.svg",
     "index.html": "/school.redcollar/index.html",
     "static/media/telegram.svg": "/school.redcollar/static/media/telegram.29ab23f928a9e3750378e5f8e06ff269.svg",
+    "static/media/delta.svg": "/school.redcollar/static/media/delta.23ad8e0f6b963f888dccc17c33b89266.svg",
     "static/media/reddelta.svg": "/school.redcollar/static/media/reddelta.8b7e5e674fc3bee6c1beb1b4c55c103d.svg",
-    "static/media/delta.svg": "/school.redcollar/static/media/delta.df212750dc83649476b129487c3b6352.svg",
-    "main.ce5ad6f3.css.map": "/school.redcollar/static/css/main.ce5ad6f3.css.map",
-    "main.542f2742.js.map": "/school.redcollar/static/js/main.542f2742.js.map",
+    "main.bc0d8462.css.map": "/school.redcollar/static/css/main.bc0d8462.css.map",
+    "main.a82457fc.js.map": "/school.redcollar/static/js/main.a82457fc.js.map",
     "787.4dd10739.chunk.js.map": "/school.redcollar/static/js/787.4dd10739.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce5ad6f3.css",
-    "static/js/main.542f2742.js"
+    "static/css/main.bc0d8462.css",
+    "static/js/main.a82457fc.js"
   ]
 }
