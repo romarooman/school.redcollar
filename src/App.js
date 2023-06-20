@@ -13,6 +13,7 @@ function App() {
         </aside>
         <History />
       </main>
+      <footer></footer>
     </>
     // <>
     // <Pomofocus/>

@@ -28,6 +28,11 @@ h1 {
   width: 226px;
   height: 33px;
   vertical-align: middle;
+  transition: 0.9s;
+  opacity: 100;
+}
+.glass:hover {
+  opacity: 0;
 }
 
 .avatar_img {
@@ -116,9 +121,15 @@ h1 {
 
 .age {
   margin: 0 0 40px 0;
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 960px) {
   .avatar_section {
     margin: 52px 0 0 40px;
   }

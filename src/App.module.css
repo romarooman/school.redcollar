@@ -8,10 +8,21 @@ html {
 
 .main {
   display: flex;
+  margin: 0 0 20px 0;
 }
 
-@media screen and (max-width: 500px) {
+#footer {
+  height: 20px;
+  width: 100%;
+  margin: 0px auto;
+
+  padding-bottom: -100px;
+}
+
+@media screen and (max-width: 960px) {
   .main {
     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
   }
 }

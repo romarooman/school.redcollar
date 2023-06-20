@@ -26,20 +26,30 @@ const Contact = (props) => {
 
         <div class={styles.profile_info}>
           <h1 class="toptitle__content-title">Романов Роман</h1>
-          <div className={styles.age}>34 года Воронеж</div>
+          <div className={styles.age}>34 года, Воронеж</div>
 
           <div class={styles.content_text}>
             <div className={styles.connectingFiled}>
               <PhoneIcon />
-              <div className={styles.textFiled}>+7 9202134890</div>
+              <a href="tel:+79202134890" className={styles.refField}>
+                <div className={styles.textFiled}>+79202134890</div>
+              </a>
             </div>
             <div className={styles.connectingFiled}>
               <MailIcon />
-              <div className={styles.textFiled}>romarooman@gmail.com</div>{" "}
+              <a
+                href="mailto:romarooman@gmail.com<"
+                className={styles.refField}
+              >
+                <div className={styles.textFiled}>romarooman@gmail.com</div>
+              </a>
             </div>
             <div className={styles.connectingFiled}>
               <TelegramIcon />
-              <div className={styles.textFiled}>romarooman</div>
+
+              <a href=" https://t.me/romarooman" className={styles.refField}>
+                <div className={styles.textFiled}>romarooman</div>{" "}
+              </a>
             </div>
             <div className={styles.connectingFiled}>
               <GitIcon />
